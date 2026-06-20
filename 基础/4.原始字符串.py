@@ -1,4 +1,8 @@
-
+r"""
+python特殊写法
+使用r''  r""  来避免转义,忽略字符串中的转移符号
+raw_path = r'C:\Users\name\Documents'
+"""
 # 综合示例：使用多个转义字符
 message = "使用多个转义字符   路径是：C:\\Users\\name\\Documents\n注意：\t不要忘记备份！"
 print(message)
